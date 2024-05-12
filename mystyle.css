@@ -105,11 +105,14 @@ span{
 .subscribe{
 padding:10px;
 background-color: rgb(114, 112, 244);
+max-width: 100%;
 }
 
 .subscribe input{
-width:300px;
+width: 100%;
 padding:5px;
+box-sizing: border-box;
+margin-right: 5px;
 }
 
 .subscribe button{
@@ -122,9 +125,10 @@ font-weight:bold;
 
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 10px;
   background-color: rgb(114, 112, 244);
   color: white;
+  max-width: 100%;
 }
 
 .review{
@@ -134,11 +138,13 @@ footer {
   margin-bottom: 15px;
   border: 1px solid black;
   padding: 20px;
+  max-width: 100%;
 }
 
 .rating{
   font-size: 30px;
   align-items: center;
+  max-width: fit-content;
 }
 
 .star{
